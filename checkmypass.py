@@ -47,4 +47,5 @@ def main(password_list):
     return 'done'
 
 
-main(sys.argv[1:])
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
